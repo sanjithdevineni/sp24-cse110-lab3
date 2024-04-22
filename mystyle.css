@@ -3,6 +3,30 @@
     src: url("Jersey_10/Jersey10-Regular.ttf");
 }
 
+b, span {
+    font-size: x-large;
+}
+
+section h4 {
+    background-color: yellow;
+}
+
+p > b {
+    background-color: yellow;
+  }
+
+h4 ~ ul {
+    background-color: yellow;
+}
+
+h3 + p {
+    background-color: yellow;
+  }
+
+header.flex-container {
+    background-color: yellow;
+}
+
 a[target] {
     background-color: yellow;
 }
