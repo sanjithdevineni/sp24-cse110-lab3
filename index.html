@@ -14,10 +14,27 @@
       color: #ff0000;
       font-size: 22px;
     }  
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      flex-flow: row wrap;
+      background-color: DodgerBlue;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: 80px 200px;
+      justify-content: space-evenly;
+      align-content: space-evenly;
+      gap: 10px;
+      background-color: #2196F3;
+      padding: 10px;
+    }
     </style>
   </head>
   <body>
-  <header>
+  <header class = "flex-container">
     <div class="myDiv">
         <h1><span style="color:blue;font-weight:bold">Scooma</span></h1>
         <hr>
@@ -33,7 +50,7 @@
     <hr>
     <h3> DATE: April 14th</h3> <p>Time: 10:00 AM</p>
     <hr>
-    <h4>Attendance List: </h4>
+    <h4 class = "grid-container">Attendance List: </h4>
     
         <ul>
             <li>Sanjith Devineni</li>
@@ -111,7 +128,6 @@
       </video>
 
     </section>
-
   
   <footer>
     <nav>
