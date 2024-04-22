@@ -1,8 +1,36 @@
 body {
     background-color: lightblue; /*make the background blue */
   }
-  
-  h1 {
+
+  title {
     color: navy;
     margin-left: 20px;
   }
+
+  h2 {
+    color: #FFFF00;
+    margin-left: 20px;
+  }
+  
+  h3 {
+    color: rgb(255, 0, 255);
+    margin-left: 20px;
+  }
+
+  p {
+    color: hsl(147, 50%, 47%);
+    margin-left: 20px;
+  }
+
+  h4 {
+    color: color(display-p3 1 0.5 0 / .5);
+    margin-left: 20px;
+  } 
+
+  li {
+    color: color-mix(in lch, plum 40%, black);
+    margin-left: 20px;
+  }  
+
+
+
