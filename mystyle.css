@@ -27,6 +27,22 @@ header.flex-container {
     background-color: yellow;
 }
 
+p:has(i) {
+    background-color: lightyellow;
+  }
+
+.extra {
+    font-family: system-ui;
+    font-size: 1.2rem;
+    & > strong {
+      color: tomato;
+      &:hover{
+        color: ivory;
+        background-color: tomato;
+      }
+    }
+}
+
 a[target] {
     background-color: yellow;
 }
