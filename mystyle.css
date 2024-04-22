@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Jersey10";
+    src: url("Jersey_10/Jersey10-Regular.ttf");
+}
+  
 body {
     background-color: var(lightblue, gray); /*make the background blue */
   }
@@ -15,6 +20,7 @@ body {
     color: #FFFF00;
     margin-left: 20pt;
     font-size: 1.5em;
+    font-family: "Jersey10";
     display: block;
   }
   
