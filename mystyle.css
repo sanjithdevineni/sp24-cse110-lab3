@@ -86,12 +86,12 @@ body {
   }
 
   h4 {
-    color: color(1 0.5 0 / .5);
+    color: color(prophoto-rgb 1 0 0);
     margin: auto;
   } 
 
   li {
-    color: color-mix(lch, plum 40%, black);
+    color: color-mix(in srgb, #34c9eb 100%, white);
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
