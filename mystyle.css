@@ -4,13 +4,17 @@ body {
 
   title {
     color: navy;
+    text-decoration: underline;
+    text-align: center;
     margin-left: 10pc;
+    display: none;
   }
 
   h2 {
     color: #FFFF00;
     margin-left: 20pt;
     font-size: 1.5em;
+    display: block
   }
   
   h3 {
