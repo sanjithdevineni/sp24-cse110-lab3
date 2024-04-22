@@ -36,10 +36,6 @@ p:has(i) {
     font-size: 1.2rem;
     & > strong {
       color: tomato;
-      &:hover{
-        color: ivory;
-        background-color: tomato;
-      }
     }
 }
 
@@ -48,7 +44,7 @@ a[target] {
 }
   
 body {
-    background-color: var(lightblue, gray); /*make the background blue */
+    background-color: var(--body-color, lightblue); /*make the background blue */
   }
 
   title {
@@ -90,12 +86,12 @@ body {
   }
 
   h4 {
-    color: color(display-p3 1 0.5 0 / .5);
+    color: color(1 0.5 0 / .5);
     margin: auto;
   } 
 
   li {
-    color: color-mix(in lch, plum 40%, black);
+    color: color-mix(lch, plum 40%, black);
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
