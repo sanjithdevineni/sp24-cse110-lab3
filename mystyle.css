@@ -1,20 +1,22 @@
 body {
-    background-color: lightblue; /*make the background blue */
+    background-color: var(lightblue, gray); /*make the background blue */
   }
 
   title {
     color: navy;
-    margin-left: 20px;
+    margin-left: 10pc;
   }
 
   h2 {
     color: #FFFF00;
-    margin-left: 20px;
+    margin-left: 20pt;
+    font-size: 1.5em;
   }
   
   h3 {
     color: rgb(255, 0, 255);
     margin-left: 20px;
+    font-size: 1.2rem;
   }
 
   p {
